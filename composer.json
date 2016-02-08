@@ -1,0 +1,37 @@
+{
+  "name": "gixx/mdl-color-theme",
+  "description": "Color theme definitions for Google's Material Design Light library",
+  "version": "1.0",
+  "type": "project",
+  "keywords": ["mdl", "color", "theme"],
+  "homepage": "http://www.gixx-web.com",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Gabor Ivan",
+      "email": "gixx@gixx-web.com",
+      "homepage": "http://www.gixx-web.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "google/material-design-lite": "v1.1.1"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "version": "v1.1.1",
+        "name": "google/material-design-lite",
+        "source": {
+          "url": "https://github.com/google/material-design-lite",
+          "type": "git",
+          "reference": "v1.1.1"
+        }
+      }
+    }
+  ]
+}

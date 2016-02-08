@@ -1,0 +1,7 @@
+/vendor/autoload.php
+/vendor/google
+/vendor/composer
+composer.lock
+/.sass-cache
+/.idea
+
