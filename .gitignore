@@ -1,5 +1,6 @@
 /vendor/autoload.php
 /vendor/google
+/vendor/bin
 /vendor/composer
 composer.lock
 /.sass-cache
