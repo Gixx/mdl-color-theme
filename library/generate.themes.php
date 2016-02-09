@@ -30,11 +30,15 @@ if ($primaryHandle = opendir($dirPrimary)) {
                     echo ' * ' . $themeFile . PHP_EOL;
 
                     $content = <<<EOH
-/* Import base ruleset */
-@import "../common";
-/* Theme: {$primary} - {$accent} */
+/* Import license */
+@import "../license";
+/* Import color definitions first */
+@import "../../vendor/google/material-design-lite/src/color-definitions";
+/*! Theme: {$primary} - {$accent} */
 @import "../primary/{$primaryFile}";
 @import "../accent/{$accentFile}";
+/* Import base variables */
+@import "../../vendor/google/material-design-lite/src/variables";
 /* Import definitions */
 @import "../definitions";
 EOH;

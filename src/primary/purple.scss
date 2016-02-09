@@ -1,3 +1,17 @@
-/*! Primary: Purple */
-$color-primary: $palette-purple-500 !default;
-$color-primary-dark: $palette-purple-700 !default;
+/* Primary: Purple */
+$color-primary: $palette-purple-500;
+$color-primary-dark: $palette-purple-700;
+
+$button-primary-color-alt: unquote("rgb(#{$color-primary})");
+$button-hover-color-alt: unquote("rgb(#{$color-primary})");
+$button-active-color-alt: unquote("rgb(#{$color-primary})");
+$icon-toggle-checked-color: unquote("rgb(#{$color-primary})");
+$radio-color: unquote("rgb(#{$color-primary})");
+$layout-header-bg-color: unquote("rgb(#{$color-primary})");
+$tab-highlight-color: unquote("rgb(#{$color-primary})");
+$checkbox-color: unquote("rgb(#{$color-primary})");
+$switch-color: unquote("rgb(#{$color-primary})");
+$spinner-single-color: unquote("rgb(#{$color-primary})");
+$input-text-highlight-color: unquote("rgb(#{$color-primary})");
+$range-color: unquote("rgb(#{$color-primary})");
+$progress-main-color: unquote("rgb(#{$color-primary})");

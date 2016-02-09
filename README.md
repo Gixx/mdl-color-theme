@@ -29,7 +29,20 @@ Installation
 
 How to use
 ----------
-- Define your custom colors (not recommended), or download the compiled files from the `package` folder.
+- Run the following commands to generate, compile and compress the `scss` files:
+
+```bash
+php library/generate.themes.php
+
+library/compile-and-compress.sh
+```
+
+- Include the compiled CSS of your choice from the package/minified folder into your HTML.
+
+Change Log
+----------
+
+- Check [Change log](CHANGELOG.md)
 
 
 

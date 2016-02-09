@@ -1,5 +1,5 @@
 /**
- * CSS Color Themes for the Material Design Light
+ * Component Extensions for the Material Design Light in CSS, JS and HTML
  *
  * LICENSE
  *
@@ -20,19 +20,10 @@
  * @link      http://www.gixx-web.com
  */
 /*!
- * mdl-color-theme - Component Extensions for the Material Design Light in CSS, JS and HTML
+ * mdl-color-theme - Color theme definitions for the Material Design Light in CSS
  * @version   1.0
  * @author    Gabor Ivan <gixx@gixx-web.com>
  * @copyright 2012 - 2016 Gixx-web (http://www.gixx-web.com)
  * @license   http://webhemi.gixx-web.com/license/new-bsd   New BSD License
  * @link      http://www.gixx-web.com
  */
-
-
-// Variables and mixins
-@import "../vendor/google/material-design-lite/src/variables";
-@import "../vendor/google/material-design-lite/src/mixins";
-
-// Resets and dependencies
-@import "../vendor/google/material-design-lite/src/resets/resets";
-@import "../vendor/google/material-design-lite/src/typography/typography";

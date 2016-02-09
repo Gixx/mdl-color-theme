@@ -1,2 +1,12 @@
-/*! Accent: Cyan */
-$color-accent: $palette-cyan-A200 !default;
+/* Accent: Cyan */
+$color-accent: $palette-cyan-A200;
+
+$text-link-color: unquote("rgb(#{$color-accent})");
+$button-fab-color-alt: unquote("rgb(#{$color-accent})");
+$button-fab-hover-color-alt: unquote("rgb(#{$color-accent})");
+$button-fab-active-color-alt: unquote("rgb(#{$color-accent})");
+$layout-header-tab-highlight: unquote("rgb(#{$color-accent})");
+$card-image-placeholder-color: unquote("rgb(#{$color-accent})");
+$badge-color-inverse: unquote("rgb(#{$color-accent})");
+$badge-background: unquote("rgb(#{$color-accent})");
+$snackbar-action-color: unquote("rgb(#{$color-accent})");
