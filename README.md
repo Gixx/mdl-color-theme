@@ -1,5 +1,3 @@
-UNDER DEVELOPMENT, DO NOT USE YET!!!
-
 # Introduction
 [The Material Design Lite](https://github.com/google/material-design-lite) (MDL) from Google is a really great thing if
 you want to create semantic websites with nice looking elements that also fit for mobile devices.
@@ -37,7 +35,7 @@ php library/generate.themes.php
 library/compile-and-compress.sh
 ```
 
-- Include the compiled CSS of your choice from the package/minified folder into your HTML.
+- Include the compiled and compressed (4.8kB) CSS of your choice from the package/minified folder into your HTML.
 
 Change Log
 ----------

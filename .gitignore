@@ -1,6 +1,5 @@
 /src/themes/*.scss
 /package/*.css
-/package/minified/*.css
 /package/*.css.map
 /vendor/autoload.php
 /vendor/google
