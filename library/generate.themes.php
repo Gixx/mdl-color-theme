@@ -30,9 +30,13 @@ if ($primaryHandle = opendir($dirPrimary)) {
                     echo ' * ' . $themeFile . PHP_EOL;
 
                     $content = <<<EOH
+/* Import base ruleset */
+@import "../common";
 /* Theme: {$primary} - {$accent} */
 @import "../primary/{$primaryFile}";
 @import "../accent/{$accentFile}";
+/* Import definitions */
+@import "../definitions";
 EOH;
 
                     file_put_contents($dirThemes . '/' . $themeFile, $content);
