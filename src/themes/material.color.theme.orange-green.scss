@@ -1,0 +1,7 @@
+/* Import base ruleset */
+@import "../common";
+/* Theme: orange - green */
+@import "../primary/orange.scss";
+@import "../accent/green.scss";
+/* Import definitions */
+@import "../definitions";

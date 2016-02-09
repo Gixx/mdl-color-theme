@@ -1,0 +1,7 @@
+/* Import base ruleset */
+@import "../common";
+/* Theme: grey - indigo */
+@import "../primary/grey.scss";
+@import "../accent/indigo.scss";
+/* Import definitions */
+@import "../definitions";

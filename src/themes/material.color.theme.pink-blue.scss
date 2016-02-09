@@ -1,0 +1,7 @@
+/* Import base ruleset */
+@import "../common";
+/* Theme: pink - blue */
+@import "../primary/pink.scss";
+@import "../accent/blue.scss";
+/* Import definitions */
+@import "../definitions";
