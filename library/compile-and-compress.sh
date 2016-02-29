@@ -2,7 +2,7 @@
 # change directory to root and compile SCSS files
 cd "$(dirname "$0")"/..
 sass --update src/themes:package
-# change director to package and compress the CSS files
+# change directory to package and compress the CSS files
 cd "$(dirname "$0")"/../package
 for file in `find . -name "*.css"`
 do
