@@ -3,7 +3,7 @@ Change log
 
 Version 1.2
 -----------
-* Add color definitions for the upcoming [Avatar Component][https://github.com/Gixx/mdl-components-ext]
+* Add color definitions for the upcoming [Avatar Component](https://github.com/Gixx/mdl-components-ext)
 
 Version 1.1
 -----------
