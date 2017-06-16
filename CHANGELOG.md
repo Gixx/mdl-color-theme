@@ -1,6 +1,10 @@
 Change log
 ==========
 
+Version 1.3
+-----------
+* Compatibility fixes for MDL 1.3.0
+
 Version 1.2
 -----------
 * Add color definitions for the upcoming [Avatar Component](https://github.com/Gixx/mdl-components-ext)

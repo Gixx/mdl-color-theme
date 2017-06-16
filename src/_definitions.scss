@@ -218,7 +218,7 @@
 }
 .mdl-checkbox__tick-outline {
   .mdl-checkbox.is-checked & {
-    background: $checkbox-color url("#{$checkbox-image-path}/tick.svg?embed");
+    background: $checkbox-color;
   }
 }
 .mdl-checkbox__ripple-container {
