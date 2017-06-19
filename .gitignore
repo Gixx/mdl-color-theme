@@ -9,3 +9,5 @@ composer.lock
 /.sass-cache
 /.idea
 
+/src/primary/thomas-blue.scss
+/package/minified/material.color.theme.thomas-blue-*.css
